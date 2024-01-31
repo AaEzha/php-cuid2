@@ -14,7 +14,9 @@
         },
         {
             "name": "Reza Nurfachmi",
-            "email": "reza@nurfachmi.com"
+            "email": "reza@nurfachmi.com",
+            "homepage": "https://nurfachmi.com",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -35,7 +37,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Nurfachmi\\Cuid2\\": "src/"
+            "Nurfachmi\\Cuid2\\": "src"
         },
         "files": [
             "src/compat.php"
@@ -43,7 +45,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Nurfachmi\\Cuid2\\Test\\": "tests/"
+            "Nurfachmi\\Cuid2\\Test\\": "tests"
         }
     },
     "config": {
@@ -52,9 +54,8 @@
         }
     },
     "scripts": {
-        "phpstan": [
-            "phpstan analyse -c phpstan.neon --no-progress --memory-limit=1G"
-        ],
-        "psalm": "psalm --show-info=false --config=psalm.xml"
+        "phpstan": "phpstan analyse -c phpstan.neon --no-progress --memory-limit=1G",
+        "psalm": "psalm --show-info=false --config=psalm.xml",
+        "test": "phpunit"
     }
 }

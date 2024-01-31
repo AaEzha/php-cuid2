@@ -5,7 +5,7 @@
 ![PHP Version](https://img.shields.io/packagist/dependency-v/nurfachmi/cuid2/php?style=for-the-badge)
 [![Packagist](https://img.shields.io/packagist/v/nurfachmi/cuid2?style=for-the-badge&logo=packagist&logoColor=white&label=stable)](https://packagist.org/packages/nurfachmi/cuid2)
 ![Downloads](https://img.shields.io/packagist/dt/nurfachmi/cuid2?style=for-the-badge&logo=packagist&logoColor=white&color=8)
-![GitHub](https://img.shields.io/github/license/aaezha/cuid.net?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/aaezha/php-cuid2?style=for-the-badge)
 
 A PHP implementation of collision-resistant ids ([prior](https://github.com/visus-io/php-cuid2)). You can read more about CUIDs from the [official project website](https://github.com/paralleldrive/cuid2).
 
@@ -36,3 +36,13 @@ echo $cuid->toString(); // hw8kkckkgwkk0oo0gkw0o8sg
 $cuid = new Nurfachmi\Cuid2\Cuid2(10);
 echo $cuid; // psk8844ck4
 ```
+
+### Testing
+
+``` bash
+composer test
+```
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
