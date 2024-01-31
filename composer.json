@@ -1,5 +1,5 @@
 {
-    "name": "visus/cuid2",
+    "name": "nurfachmi/cuid2",
     "description": "A PHP library for generating collision-resistant ids (CUIDs).",
     "license": "MIT",
     "type": "library",
@@ -11,6 +11,10 @@
         {
             "name": "Alan Brault",
             "email": "alan.brault@visus.io"
+        },
+        {
+            "name": "Reza Nurfachmi",
+            "email": "reza@nurfachmi.com"
         }
     ],
     "require": {
@@ -31,7 +35,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Visus\\Cuid2\\": "src/"
+            "Nurfachmi\\Cuid2\\": "src/"
         },
         "files": [
             "src/compat.php"
@@ -39,7 +43,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Visus\\Cuid2\\Test\\": "tests/"
+            "Nurfachmi\\Cuid2\\Test\\": "tests/"
         }
     },
     "config": {

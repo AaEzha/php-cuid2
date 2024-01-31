@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Visus\Cuid2;
+namespace Nurfachmi\Cuid2;
 
 use Exception;
 
@@ -10,7 +10,7 @@ use Exception;
  * Singleton responsible for generating and storing a fingerprint
  *
  * @internal
- * @psalm-internal Visus\Cuid2
+ * @psalm-internal Nurfachmi\Cuid2
  */
 final class Fingerprint
 {

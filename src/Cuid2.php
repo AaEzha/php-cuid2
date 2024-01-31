@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Visus\Cuid2;
+namespace Nurfachmi\Cuid2;
 
 use Exception;
 use JsonSerializable;

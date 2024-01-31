@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Visus\Cuid2\Test;
+namespace Nurfachmi\Cuid2\Test;
 
 use OutOfRangeException;
 use PHPUnit\Framework\TestCase;
-use Visus\Cuid2\Cuid2;
+use Nurfachmi\Cuid2\Cuid2;
 
 class Cuid2Test extends TestCase
 {
